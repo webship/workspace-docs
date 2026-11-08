@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-docs",
   "version": "1.0.0-alpha1",
-  "description": "The Docs workspace for Webship Workspace: the `docs/` folder (type files), its settings file, its 2 commands and its docs, activated as a plugin.",
+  "description": "The Docs workspace for Webship Workspace: the `docs/` folder (type files), its settings file, its 0 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,10 +29,7 @@
     "workspace": {
       "key": "docs",
       "settingsTemplate": "config/workspace.docs.settings.yml",
-      "files": [
-        "commands/cmd-tool-backup-doc.sh",
-        "commands/cmd-tool-git-change-filemode-to-false.sh"
-      ],
+      "files": [],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",

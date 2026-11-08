@@ -20,7 +20,6 @@ The settings file and the docs are placed once and never overwritten: they hold 
 
 | Command |
 | --- |
-| `cmd-tool-backup-doc.sh` |
-| `cmd-tool-git-change-filemode-to-false.sh` |
+| (none) |
 
 The bash functions these commands call live in the dashboard's `core/scripts/functions`.
