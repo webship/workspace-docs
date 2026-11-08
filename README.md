@@ -1,4 +1,4 @@
-# @webship/workspace-docs
+# @webship.co/workspace-docs
 
 The **Docs** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `docs/` folder (type `files`), its settings file (`core/config/workspace.docs.settings.yml`),
