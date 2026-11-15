@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-docs",
   "version": "1.0.8",
-  "description": "The Docs workspace for Webship Workspace: the `docs/` folder (type files), its settings file, its 2 commands and its docs, activated as a plugin.",
+  "description": "The Docs workspace for Webship Workspace: the `docs/` folder (type files), its settings file, its 2 commands, its docs and its AI items (an agent, a skill, a command and a prompt, each in the folder of its kind), activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -11,6 +11,7 @@
   },
   "files": [
     "dist/src",
+    "ai",
     "commands",
     "config",
     "docs",
@@ -26,6 +27,12 @@
   "workspacePlugin": {
     "name": "docs",
     "label": "Docs",
+    "needs": [
+      "ai-agents",
+      "ai-skills",
+      "ai-commands",
+      "ai-prompts"
+    ],
     "workspace": {
       "key": "docs",
       "settingsTemplate": "config/workspace.docs.settings.yml",
@@ -37,6 +44,20 @@
         "docs/AGENTS.md",
         "docs/CLAUDE.md",
         "docs/README.md"
+      ]
+    },
+    "ai": {
+      "agents": [
+        "ai/agents/docs-writer.md"
+      ],
+      "skills": [
+        "ai/skills/docs-workflow"
+      ],
+      "commands": [
+        "ai/commands/docs-write.md"
+      ],
+      "prompts": [
+        "ai/prompts/docs-write-a-document.md"
       ]
     },
     "features": [
