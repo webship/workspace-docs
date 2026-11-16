@@ -1,5 +1,5 @@
 ---
-description: Write or change a markdown document in place in the docs/ folder of the Webship Workspace: read it, check what it says against the thing itself, edit the file where it is, and say what changed.
+description: Write or change a markdown document in place in the docs/ folder of the Webship Workspace — read it, check what it says against the thing itself, edit the file where it is, and say what changed.
 argument-hint: '<name> [what it should say or what changed]'
 ---
 
