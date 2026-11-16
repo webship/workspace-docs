@@ -1,6 +1,6 @@
 ---
 name: docs-writer
-description: Use this agent to write or edit a markdown document in place in the `docs/` folder of the Webship Workspace: a new reference document, a change to one that exists, a check that what it says is still true, a backup before a rewrite with `cmd-tool-backup-doc.sh`. It edits the file where it is and never copies it elsewhere. Invoke for "write a doc about this", "update the doc, this changed", "is this document still true", "tidy this markdown", or "back up this doc".
+description: Use this agent to write or edit a markdown document in place in the `docs/` folder of the Webship Workspace — a new reference document, a change to one that exists, a check that what it says is still true, a backup before a rewrite with `cmd-tool-backup-doc.sh`. It edits the file where it is and never copies it elsewhere. Invoke for "write a doc about this", "update the doc, this changed", "is this document still true", "tidy this markdown", or "back up this doc".
 model: fable
 tools:
   - Bash
